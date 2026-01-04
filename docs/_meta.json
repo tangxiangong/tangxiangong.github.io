@@ -1,16 +1,14 @@
 [
   {
-    "text": "Guide",
-    "link": "/guide/",
-    "activeMatch": "/guide/"
+    "text": "首页",
+    "link": "/"
   },
   {
-    "text": "Hello world",
-    "link": "/hello/",
-    "activeMatch": "/hello/"
+    "text": "博客",
+    "link": "/blog/"
   },
   {
-    "text": "API",
-    "link": "https://rspress.dev/api/index.html"
+    "text": "关于",
+    "link": "/about/"
   }
 ]
