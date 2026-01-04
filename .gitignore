@@ -12,3 +12,6 @@ doc_build/
 .vscode/*
 !.vscode/extensions.json
 .idea
+
+# Auto-generated files
+docs/public/blog-pages.json

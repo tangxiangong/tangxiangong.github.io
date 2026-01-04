@@ -1,5 +1,6 @@
 import * as path from 'node:path';
 import { defineConfig } from 'rspress/config';
+import { pluginBlogData } from './src/plugin-blog-data';
 
 export default defineConfig({
   root: path.join(__dirname, 'docs'),
@@ -11,6 +12,7 @@ export default defineConfig({
     dark: '/rspress-dark-logo.png',
   },
   themeConfig: {
+    lastUpdated: true,
     socialLinks: [
       {
         icon: 'github',
@@ -33,4 +35,5 @@ export default defineConfig({
       },
     ],
   },
+  plugins: [pluginBlogData()],
 });

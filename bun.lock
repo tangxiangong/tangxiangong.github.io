@@ -4,6 +4,7 @@
     "": {
       "name": "rspress-doc-template",
       "dependencies": {
+        "@rspress/plugin-last-updated": "^1.47.0",
         "rspress": "^1.40.2",
       },
       "devDependencies": {
